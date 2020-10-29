@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.0em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.nav a:hover, nav a:focus {
+    border-bottom: 1px solid #2259a6;
+    color: #2259a6;
+}
+
+.current-page {
+    border-bottom: 1px solid #2259a6;
+}
+
+.companylogo {
+    width: 300px;
+    height: 125px;
+    padding-top: 1em;
+    padding-left: 3em;
+}
+
+.main-header {
+    background-image: url("images/bhb3.jpg");
+    background-size: cover;
+}
+
+.content {
+    margin: 1em;
+}
+
+.center-img {
+    width: 100%;
+}
+
+.container-mid {
+    position: relative;
+    text-align: center;
+}
+
+.mid-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+}
+
+.mid-text2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secondary-header {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: flex;
+}
+
+.pen-test {
+    margin: 30px;
+}
+
+.pen-test img {
+    width: 100px;
+    height: 100px;
+}
+
+.web-host {
+    margin: 30px;
+}
+
+.web-host img {
+    width: 100px;
+    height: 100px;
+}
+
+.dev-sec {
+    margin: 30px;
+}
+
+.dev-sec img {
+    width: 100px;
+    height: 100px;
+}
+
+.service-info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.service-desc {
+    flex-grow: 1;
+    color: black;
+}
+
+.off-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 370px;
+}
+
+.main-footer {
+    background-color: #2259a6;
+    color: #545454;
+    padding: .35em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-nav li {
+    padding: 0 .2em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding-bottom: .3em;
+}
+
+.copyright a {
+    color: white;
+}
